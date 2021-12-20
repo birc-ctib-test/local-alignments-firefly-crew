@@ -251,4 +251,3 @@ would write the result to `my-cigs.out`.
 
 The input format for the two commands differs, as one would expect since they translate in opposite directions. The input to `from_cig` is one line per alignment with the two sequences and a CIGAR string, separated by tabs. The output is three lines per alignment; a row per aligned sequence and a blank line after that. The input to `to_cig` is the output format from `from_cig` and the output is the input format for `from_cig`. Again, as one would expect if they are translating in opposite directions.
 
-just adding a change.
